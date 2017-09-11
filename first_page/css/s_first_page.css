@@ -15,7 +15,9 @@ body {
 /*导航条*/
 #navigation{
     height: 60px;
-    background-color: #65CCB8;
+    /*background-color: #65CCB8;*/
+    background-color: #0CC;
+    -webkit-box-shadow:inset 0 0 10px #0CC;
 }
 #nav_left{
     float: left;
@@ -34,7 +36,6 @@ body {
     line-height: 60px;
     vertical-align: middle;
     text-align: center;
-}
 }
 
 
@@ -95,13 +96,13 @@ a:hover {
 .tp-bullets.simplebullets.round .bullet.selected,
 .tp-bullets.simplebullets.navbar .bullet:hover,
 .tp-bullets.simplebullets.navbar .bullet.selected {	
-	background:#65CCB8 !important; 
+	background:#0CC !important; 
 }
 
 /*#e1472f*/
 .tp-leftarrow:hover,
 .tp-rightarrow:hover {	
-	background-color:#65CCB8 !important;
+	background-color:#0CC !important;
  }
 /** BULLETS **/
 .tp-bullets {
