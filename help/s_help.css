@@ -48,6 +48,7 @@ body {
 
 .gradient{
 	background: -webkit-linear-gradient(left, #10E7DC , #77A6F7);
+	/*background: -webkit-linear-gradient(left, #0cc , #77A6F7);*/
 	height: 150px;
 	opacity: 0.7;
 	margin: 0 0 40px 0
