@@ -7,7 +7,7 @@
 }
 body {
 	font: 12px/20px Open Sans, Helvetica, Arial, sans-serif;
-	background:#fff;
+	background:#efefef;
 	margin:0;
 	padding:0;
 	color:#686868;
@@ -114,7 +114,7 @@ a:hover {
 .tp-bullets.simplebullets.round .bullet {
     cursor: pointer;
     position: relative;
-    background: #fff;
+    background: #efefef;
     width: 188px;
     height: 6px;
     float: left;
@@ -317,4 +317,39 @@ a:hover {
     border-radius: 3px;
     -moz-border-radius: 3px;
     -webkit-border-radius: 3px;
+}
+
+/*文字内容*/
+#main{
+    width: 90%;
+    display: flex;
+    margin: 20px auto 0 auto;
+    background-color:#efefef;
+    padding: 0 20px;
+}
+.main_flex{
+    flex: 1;
+    background-color:#efefef;
+    margin: 0 20px;
+}
+/*#mian_center{
+    margin: 0 20px;
+}*/
+.main_flex_heigh{
+    background-color: white;
+    height: 360px;
+    margin: 20px 0;
+     -webkit-box-shadow:inset 0 0 10px #0CC;
+}
+.main_flex_middle{
+    background-color: white;
+    height: 240px;
+    margin: 20px 0;
+     -webkit-box-shadow:inset 0 0 10px #0CC;
+}
+.main_flex_buttom{
+    background-color: white;
+    height: 120px;
+    margin: 20px 0;
+     -webkit-box-shadow:inset 0 0 10px #0CC;
 }
