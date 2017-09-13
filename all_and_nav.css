@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+	font: 12px/20px Open Sans, Helvetica, Arial, sans-serif;
+	background:#efefef;
+	margin:0;
+	padding:0;
+	color:#686868;
+}
+
+/*导航条*/
+#navigation{
+    height: 60px;
+    background-color: #0CC; 
+  -webkit-box-shadow:inset 0 0 10px #0CC;
+}
+#nav_left{
+    float: left;
+    width: 600px;
+    display: flex;
+    line-height: 60px;
+    vertical-align: middle;
+}
+.nav_left_in{
+    flex: 1;
+    text-align: center;
+}
+#nav_right{
+    float: right;
+    width: 120px;
+    line-height: 60px;
+    vertical-align: middle;
+    text-align: center;
+}
+.clear{
+    clear: both;
+}
