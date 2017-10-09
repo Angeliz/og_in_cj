@@ -1,0 +1,16 @@
+*{
+	margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+	/*font: 12px/20px Open Sans, Helvetica, Arial, sans-serif;*/
+	background:black;
+	margin:0;
+	padding:0;
+	/*color:#686868;*/
+}
+#hd{
+	width: 50%;
+	height: auto;
+}
