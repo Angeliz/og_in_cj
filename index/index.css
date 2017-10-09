@@ -15,16 +15,49 @@ body {
 	font-family: myFirstFont;
 	src: url(E:/GitHub/og_in_cj/index/font/叶根友毛笔行书.ttf);
 }
-img{
+#hd{
+	width: 45%;
+	height: auto;
 	float: left;
 }
-#hd{
-	width: 50%;
-	height: auto;
+#hd_right{
+	padding-top: 180px;
+}
+#hd_right_top{
+	margin-bottom: 150px;
+}
+#lt_left{
+	padding-left: 100px;
+	margin-top: 150px;
+	margin-bottom: 100px;
+}
+#lt_left_top{
+	margin-bottom: 150px;
 }
 .big{
 	font-family: myFirstFont;
 	color: white;
-	padding-top: 150px;
 	font-size: 100px;
+}
+.small{
+	font-family: 微软雅黑;
+	color: white;
+	font-size: 20px;
+}
+.clear{
+    clear: both;
+}
+
+/*页面滚动到相应位置运行动画*/
+.con{ height:1200px;}
+.list{ list-style:none; padding:0; margin:0; }
+.list li{ height:500px; }
+.list li img{ opacity:0; animation:move 2s forwards; animation-play-state:paused;}
+.list li div{ opacity:0; animation:move 2s forwards; animation-play-state:paused;}
+.list .move img{ animation-play-state:running;}
+.list .move div{ animation-play-state:running;}
+
+@keyframes move{
+	from{ opacity:0; margin-left:500px;}
+	to{ opacity:1; margin-left:0px;}
 }

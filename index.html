@@ -1,23 +1,65 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta charset="utf-8">
 	<title>GAME</title>
 	<link rel="stylesheet" type="text/css" href="E:/GitHub/og_in_cj/index/index.css">
+	<script src="E:/GitHub/og_in_cj/index/jquery-1.12.1.min.js"></script>
 </head>
 <body>
-	<div>
-		<img id="hd" src="./index/img/HD.jpg">
-		<p class="big">隐龙传</p>
-	</div>
-	<div>
-		<p></p>
-		<img src="">
-	</div>
-	<div>
-		<img src="">
-		<p></p>
-	</div>
-	<div></div>
-	<div></div>
+	<ul class="list">	
+		<li>
+	    	<img id="hd" src="E:/GitHub/og_in_cj/index/img/HD.jpg">
+			<div id="hd_right">
+				<div id="hd_right_top">
+					<p class="big">龙城至此隐</p>
+					<p class="big">&nbsp;&nbsp;&nbsp;江湖恩怨情仇</p>
+				</div>
+				<div id="hd_right_bottom">
+					<p class="small">《隐龙传：影踪》</p>
+					<p class="small">国产独立游戏，3D视角，横版过关，动作冒险</p>
+					<p class="small">主要平台：PlayStation® 4，XBox One，Steam</p>
+					<p class="small">游戏设定在唐朝，玩家将扮演主角陆天源，遍历盛唐名城，对抗众多实力卓越的敌人</p>
+				</div>
+			</div>
+	    </li>
+	    <div class="clear"></div>
+	    <li>
+	    	<div id="lt_left">
+				<div id="lt_left_top">
+					<p class="big">高塔由是生</p>
+					<p class="big">&nbsp;&nbsp;&nbsp;长路光芒指引</p>
+				</div>
+				<div id="lt_left_bottom">
+					<p class="small">《光的追迹者》</p>
+					<p class="small">国产独立游戏，VR，第三人称，冒险闯关</p>
+					<p class="small">主要平台：HTC Vive, PSVR</p>
+					<p class="small">这是一个追寻光线的冒险故事,“马里奥+纪念碑谷+塞尔达”</p>
+				</div>
+			</div>
+			<img src="">
+	    </li>
+	    <li>
+	    	<p>第3屏动画进入视线</p>
+	    </li>
+	</ul>
+	<script>
+	$(document).ready(function(){
+		var a,b,c;
+		a=$(window).height();	
+		$(window).scroll(function(){		
+			var b=$(this).scrollTop();
+			$(".list li").each(function(){
+				c=$(this).offset().top;							
+				if(a+b>c){
+					$(this).addClass("move");
+				}
+				else{
+					$(this).removeClass("move");
+				}
+			});	
+		});			
+	});
+	</script>
 </body>
 </html>
