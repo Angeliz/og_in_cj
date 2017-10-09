@@ -57,13 +57,13 @@ a:hover {
 .tp-bullets.simplebullets.round .bullet.selected,
 .tp-bullets.simplebullets.navbar .bullet:hover,
 .tp-bullets.simplebullets.navbar .bullet.selected {	
-	background:#0CC !important; 
+	background:#00E5FF !important; 
 }
 
 /*#e1472f*/
 .tp-leftarrow:hover,
 .tp-rightarrow:hover {	
-	background-color:#0CC !important;
+	background-color:#00E5FF !important;
  }
 /** BULLETS **/
 .tp-bullets {
@@ -75,7 +75,7 @@ a:hover {
 .tp-bullets.simplebullets.round .bullet {
     cursor: pointer;
     position: relative;
-    background: #efefef;
+    background: white;
     width: 188px;
     height: 6px;
     float: left;
@@ -285,12 +285,12 @@ a:hover {
     width: 90%;
     display: flex;
     margin: 20px auto 0 auto;
-    background-color:#efefef;
+    background-color:white;
     padding: 0 20px;
 }
 .main_flex{
     flex: 1;
-    background-color:#efefef;
+    background-color:white;
     margin: 0 20px;
 }
 /*#mian_center{
