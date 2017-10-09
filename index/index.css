@@ -26,17 +26,24 @@ body {
 #hd_right_top{
 	margin-bottom: 150px;
 }
+#lt{
+	width: 47%;
+	height: auto;
+	float: right;
+	padding-top: 50px;
+}
 #lt_left{
 	padding-left: 100px;
-	margin-top: 150px;
-	margin-bottom: 100px;
+	padding-top: 150px;
+	margin-bottom: 80px;
 }
 #lt_left_top{
 	margin-bottom: 150px;
 }
 .big{
 	font-family: myFirstFont;
-	color: #FF9800;
+	/*color: #FF9800;*/
+	color: #ff4611;
 	font-size: 100px;
 }
 .small{
@@ -52,12 +59,12 @@ body {
 .con{ height:1200px;}
 .list{ list-style:none; padding:0; margin:0; }
 .list li{ height:500px; }
-.list li img{ opacity:0; animation:move 2s forwards; animation-play-state:paused;}
-.list li div{ opacity:0; animation:move 2s forwards; animation-play-state:paused;}
+.list li img{ opacity:0; animation:move 1.5s forwards; animation-play-state:paused;}
+.list li div{ opacity:0; animation:move 1.5s forwards; animation-play-state:paused;}
 .list .move img{ animation-play-state:running;}
 .list .move div{ animation-play-state:running;}
 
 @keyframes move{
-	from{ opacity:0; margin-left:500px;}
+	from{ opacity:0; margin-left:200px;}
 	to{ opacity:1; margin-left:0px;}
 }

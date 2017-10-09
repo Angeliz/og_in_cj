@@ -57,13 +57,13 @@ a:hover {
 .tp-bullets.simplebullets.round .bullet.selected,
 .tp-bullets.simplebullets.navbar .bullet:hover,
 .tp-bullets.simplebullets.navbar .bullet.selected {	
-	background:#FF9800 !important; 
+	background:#ff4611 !important; 
 }
 
 /*#e1472f*/
 .tp-leftarrow:hover,
 .tp-rightarrow:hover {	
-	background-color:#FF9800 !important;
+	background-color:#ff4611 !important;
  }
 /** BULLETS **/
 .tp-bullets {
