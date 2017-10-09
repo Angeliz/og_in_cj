@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body {
 	/*font: 12px/20px Open Sans, Helvetica, Arial, sans-serif;*/
 	background:black;
@@ -19,6 +20,7 @@ body {
 	width: 45%;
 	height: auto;
 	float: left;
+	padding-left:100px;
 }
 #hd_right{
 	padding-top: 180px;
@@ -26,6 +28,22 @@ body {
 #hd_right_top{
 	margin-bottom: 150px;
 }
+#km{
+	width: 40%;
+	height: auto;
+	float: left;
+	padding-left:100px;
+}
+#km_right{
+	padding-top: 180px;
+	padding-left:700px;
+
+}
+#km_right_top{
+	margin-bottom: 150px;
+	padding-top: 50px;
+}
+
 #lt{
 	width: 47%;
 	height: auto;
@@ -55,12 +73,91 @@ body {
     clear: both;
 }
 
+#sign_in{
+	height: 300px;
+	width: 100%;
+	/*text-align: center;*/
+	
+
+}
+#sign_in button{
+	height: 60px;
+	width: 30%;
+	margin: 150px 0 200px 550px ;
+	background-color: #ff4611;
+
+	 border: none;
+  border-radius: 2px;
+
+  position: relative;
+  height: @button-height;
+  /*margin: 0px auto;*/
+  min-width: 88px;
+  padding: 0 16px;
+  display: inline-block;
+  overflow: hidden;
+  will-change: box-shadow;
+  transition: all .2s @animation-curve-default,
+              box-shadow .2s @animation-curve-fast-out-linear-in;
+  outline: none;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  line-height: @button-height;
+  vertical-align: middle;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+
+  zoom: 1;
+  white-space: nowrap;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  box-sizing: border-box;
+
+}
+
+
+footer{
+	/*width: 100%
+	height: 400px;*/
+	background: rgb(51,51,51);
+	opacity:0.5;
+	/*padding-left: 10px;
+	margin-top:20px;*/ 
+}
+#foot{
+	width: 100%
+	height: 400px;
+	padding: 100px 0 ;
+}
+footer p{
+	vertical-align: middle;
+	color:white;
+	text-align: center;
+	font-family: 微软雅黑;
+}
+#github{
+	text-decoration: none;
+}
+#github:link{color: #ff4611}
+
+#github:visited{color: #ff4611}
+
+#github:hover{color: #ff4611}
+
+#github:active{color: #ff4611}
+
 /*页面滚动到相应位置运行动画*/
 .con{ height:1200px;}
 .list{ list-style:none; padding:0; margin:0; }
 .list li{ height:500px; }
-.list li img{ opacity:0; animation:move 1.5s forwards; animation-play-state:paused;}
-.list li div{ opacity:0; animation:move 1.5s forwards; animation-play-state:paused;}
+.list li img{ opacity:0; animation:move 2s forwards; animation-play-state:paused;}
+.list li div{ opacity:0; animation:move 2s forwards; animation-play-state:paused;}
 .list .move img{ animation-play-state:running;}
 .list .move div{ animation-play-state:running;}
 
@@ -68,3 +165,4 @@ body {
 	from{ opacity:0; margin-left:200px;}
 	to{ opacity:1; margin-left:0px;}
 }
+
