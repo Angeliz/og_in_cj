@@ -10,7 +10,21 @@ body {
 	padding:0;
 	/*color:#686868;*/
 }
+@font-face
+{
+	font-family: myFirstFont;
+	src: url(E:/GitHub/og_in_cj/index/font/叶根友毛笔行书.ttf);
+}
+img{
+	float: left;
+}
 #hd{
 	width: 50%;
 	height: auto;
+}
+.big{
+	font-family: myFirstFont;
+	color: white;
+	padding-top: 150px;
+	font-size: 100px;
 }
