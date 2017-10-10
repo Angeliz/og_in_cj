@@ -58,7 +58,6 @@ body {
 }
 .big{
 	font-family: myFirstFont;
-	/*color: #FF9800;*/
 	color: #ff4611;
 	font-size: 100px;
 }
@@ -78,7 +77,6 @@ body {
 	margin-top: 100px;
 	background:url(E:/GitHub/og_in_cj/index/img/LT4.jpg) no-repeat;
 	background-size: 100%;
-	/*opacity: 0.5;*/
 }
 #sign_in p{
 	text-align: center;
@@ -89,9 +87,7 @@ body {
 #sign_in button{
 	height: 60px;
 	width: 30%;
-	/*background-color: #ff4611;*/
 	background-color: black;
-	/*color: #ff4611;*/
 	color: red;
 	opacity: 0.5;
 
