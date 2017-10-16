@@ -8,26 +8,13 @@
 	<script src="E:/GitHub/og_in_cj/mdui/js/mdui.js"></script>
 	<script src="E:/GitHub/og_in_cj/mdui/js/mdui.min.js"></script>
 </head>
-<body class="mdui-appbar-with-toolbar mdui-appbar-with-tab">
+<body class="mdui-appbar-with-toolbar mdui-appbar-with-tab mdui-drawer-body-left mdui-theme-primary-indigo mdui-theme-accent-pink">
+<header class="mdui-appbar mdui-appbar-fixed">
 <div class="mdui-appbar mdui-appbar-fixed">
   <div class="mdui-toolbar mdui-color-black">
-     <a href="javascript:;" class="mdui-btn mdui-btn-icon" mdui-menu="{target: '#example-0'}"><i class="mdui-icon material-icons">menu</i></a>
-      <ul class="mdui-menu" id="example-0">
-        <li class="mdui-menu-item">
-          <a href="javascript:scroll(0,0)" class="mdui-ripple">回到顶部</a>
-        </li>
-        <li class="mdui-menu-item" disabled>
-          <a href="javascript:;">Help & feedback</a>
-        </li>
-        <li class="mdui-menu-item">
-          <a href="javascript:;" class="mdui-ripple">Settings</a>
-        </li>
-        <li class="mdui-divider"></li>
-        <li class="mdui-menu-item">
-          <a href="E:/GitHub/og_in_cj/index.html" class="mdui-ripple">Sign out</a>
-        </li>
-      </ul>
-    <a href="javascript:;" class="mdui-typo-title">Title</a>
+     <!-- <a href="javascript:;" class="mdui-btn mdui-btn-icon" ><i class="mdui-icon material-icons">menu</i></a> -->
+     <span class="mdui-btn mdui-btn-icon mdui-ripple mdui-ripple-white" mdui-drawer="{target: '#main-drawer', swipe: true}"><i class="mdui-icon material-icons">menu</i></span>
+    <a href="javascript:;" class="mdui-typo-title">GAME</a>
     <div class="mdui-toolbar-spacer"></div>
     <a href="javascript:;" class="mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">search</i></a>
     <a href="javascript:location.reload();" class="mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">refresh</i></a>
@@ -50,11 +37,110 @@
   </div>
   <div class="mdui-tab mdui-color-black" mdui-tab>
   	<a href="E:/GitHub/og_in_cj/first_page/first_page.html" class="mdui-ripple mdui-ripple-white mdui-ripple" class="mdui-ripple mdui-ripple-white mdui-ripple">首页</a>
-    <a href="E:/GitHub/og_in_cj/HD/HD.html" class="mdui-ripple mdui-ripple-white mdui-ripple">隐龙传</a>
+    <a href="E:/GitHub/og_in_cj/HD/HD.html" class="mdui-ripple mdui-ripple-white mdui-ripple mdui-tab-active">隐龙传</a>
     <a href="E:/GitHub/og_in_cj/LT/LT.html" class="mdui-ripple mdui-ripple-white mdui-ripple">光的追迹者</a>
     <a href="E:/GitHub/og_in_cj/KM/KM.html" class="mdui-ripple mdui-ripple-white mdui-ripple">大圣归来</a>
     <a href="E:/GitHub/og_in_cj/help/help.html" class="mdui-ripple mdui-ripple-white mdui-ripple">帮助与反馈</a>
   </div>
 </div>
+</header>
+
+<div class="mdui-drawer" id="main-drawer">
+  <div class="mdui-list" mdui-collapse="{accordion: true}" style="margin-bottom: 76px;">
+
+    <div class="mdui-collapse-item mdui-collapse-item-open">
+      <div class="mdui-collapse-item-header mdui-list-item mdui-ripple">
+        <i class="mdui-list-item-icon mdui-icon material-icons mdui-text-color-deep-orange">widgets</i>
+        <div class="mdui-list-item-content">简介</div>
+        <i class="mdui-collapse-item-arrow mdui-icon material-icons">keyboard_arrow_down</i>
+      </div>
+      <div class="mdui-collapse-item-body mdui-list">
+        <a href="./HD.html" class="mdui-list-item mdui-ripple mdui-list-item-active">游戏概况</a>
+        <a href="./HD-character.html" class="mdui-list-item mdui-ripple ">主要角色</a>
+        <a href="./HD-checkpoint.html" class="mdui-list-item mdui-ripple ">关卡</a>
+        <a href="./HD-play.html" class="mdui-list-item mdui-ripple ">玩法</a>
+      </div>
+    </div>
+
+    <div class="mdui-collapse-item ">
+      <div class="mdui-collapse-item-header mdui-list-item mdui-ripple">
+        <i class="mdui-list-item-icon mdui-icon material-icons mdui-text-color-deep-orange">pause_circle_filled</i>
+        <div class="mdui-list-item-content">视频</div>
+        <i class="mdui-collapse-item-arrow mdui-icon material-icons">keyboard_arrow_down</i>
+      </div>
+      <div class="mdui-collapse-item-body mdui-list">
+        <a href="./HD-video1.html" class="mdui-list-item mdui-ripple ">视频1</a>
+        <a href="./HD-video1.html" class="mdui-list-item mdui-ripple " disabled>视频2</a>
+      </div>
+    </div>
+
+    <div class="mdui-collapse-item ">
+      <div class="mdui-collapse-item-header mdui-list-item mdui-ripple">
+        <i class="mdui-list-item-icon mdui-icon material-icons mdui-text-color-deep-orange">edit</i>
+        <div class="mdui-list-item-content">评测</div>
+        <i class="mdui-collapse-item-arrow mdui-icon material-icons">keyboard_arrow_down</i>
+      </div>
+      <div class="mdui-collapse-item-body mdui-list">
+        <a href="./HD-evaluation.html" class="mdui-list-item mdui-ripple ">评测1</a>
+        <a href="./button" class="mdui-list-item mdui-ripple ">评测2</a>
+      </div>
+    </div>
+
+    <div class="mdui-collapse-item ">
+      <div class="mdui-collapse-item-header mdui-list-item mdui-ripple">
+        <i class="mdui-list-item-icon mdui-icon material-icons mdui-text-color-deep-orange">view_carousel</i>
+        <div class="mdui-list-item-content">动态</div>
+        <i class="mdui-collapse-item-arrow mdui-icon material-icons">keyboard_arrow_down</i>
+      </div>
+      <div class="mdui-collapse-item-body mdui-list">
+        <a href="./HD-dynamic.html" class="mdui-list-item mdui-ripple ">Collapse</a>
+        <a href="./headroom" class="mdui-list-item mdui-ripple ">Headroom</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<a id="anchor-top"></a>
+
+<div class="mdui-container doc-container">
+  <!-- <h1 class="doc-title mdui-text-color-deep-orange">《隐龙传：影踪》</h1>
+
+  <nav class="doc-toc mdui-text-color-deep-orange">
+    <ul>
+      <li><a data-scroll href="#ziliao">基本资料</a></li>
+      <li><a data-scroll href="#beijing">故事背景</a></li>
+      <li><a data-scroll href="#jieshao">游戏介绍</a></li>
+    </ul>
+  </nav> -->
+
+  <div class="doc-chapter">
+    <div class="mdui-typo">
+      <h2 class="doc-chapter-title doc-chapter-title-first mdui-text-color-deep-orange">基本资料 <a class="doc-anchor" id="ziliao"></a></h2>
+      <p>游戏名称：隐龙传：影踪</p>
+      <p>游戏平台：XBox One/PS4/PC</p>
+      <p>游戏类型：ACT</p>
+      <p>游戏人数：1人</p>
+      <p>游戏引擎：虚幻4</p>
+      <p>制作公司：美格方互动</p>
+    </div>
+
+    <div class="mdui-typo">
+      <h2 class="doc-chapter-title mdui-text-color-deep-orange">故事背景 <a class="doc-anchor" id="beijing"></a></h2>
+      <p>天授元年，武则天登基为帝。为了巩固自己的政权，武皇不惜任用酷吏，但看着自己日益年迈，迫切寻求长生之法。王孝杰将军与西域吐蕃连番征战期间，意外缴获天外陨石，将其献予武皇。武皇大喜，遂成立一秘密组织，代号 “爻 ”，以天外陨石打造神器 “龙鼎 ”，研制长生不老之药，却不得其法。其后武皇驾崩。大唐政局经过了一系列的动荡，最终李隆基重夺政权，登基为帝，称唐玄宗。</p>
+      <p>多年后，神秘组织 “爻 ”携神器 “龙鼎 ”复出，并在江湖上活捉奇人异士，作为其秘密实验的实验品。无数门派遭其灭门，在江湖上掀起了一番血雨腥风。无数阴谋正在酝酿当中……</p>
+    </div>
+
+    <div class="mdui-typo">
+      <h2 class="doc-chapter-title mdui-text-color-deep-orange">游戏介绍 <a class="doc-anchor" id="jieshao"></a></h2>
+      <p>《隐龙传》是由国内著名独立游戏工作室美格方互动倾力打造的3D横版动作系列游戏。《隐龙传™：影踪》为《隐龙传》系列第一部。游戏采用虚幻4引擎制作，将惊艳的画面品质以及流畅的战斗体验带给广大玩家。</p>
+      <p>游戏故事以中国大唐为背景，玩家将操控主角陆天源，探寻神器“龙鼎”的秘密，粉碎神秘组织“爻”的阴谋。</p>
+      <p>游戏制作初期，国人大师级画家阮佳便参与<隐龙传™：影踪>项目中来，为游戏奠定了独特风格的美术基础。同时，制作团队为游戏打造了一套硬核的动作与战斗体系，让玩家可以使用不同的武器，通过多种连招组合，再搭配不同的特殊能力和杀意技，体验畅爽华丽的战斗。同时，游戏也通过许多电影级别的实时渲染过场动画来阐述剧情与故事，再配上由知名音乐团队量身打造的游戏音乐，给玩家带来视觉和听觉上的享受。</p>
+      <p>作为一款仅有十几名核心制作成员的独立游戏，玩家定能在<隐龙传™：影踪>中感受到国产主机游戏的诚意。</p>
+    </div>
+
+  </div>
+</div>
+
+
 </body>
 </html>
