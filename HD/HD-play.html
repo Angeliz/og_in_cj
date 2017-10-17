@@ -20,18 +20,22 @@
     <a href="javascript:location.reload();" class="mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">refresh</i></a>
     <a href="javascript:;" class="mdui-btn mdui-btn-icon" mdui-menu="{target: '#example-1'}"><i class="mdui-icon material-icons">more_vert</i></a>
     <ul class="mdui-menu" id="example-1">
-      <li class="mdui-menu-item">
-        <a href="javascript:scroll(0,0)" class="mdui-ripple">回到顶部</a>
+      <li class="mdui-menu-item ">
+        <a href="javascript:scroll(0,0)" class="mdui-ripple">
+          <i class="mdui-menu-item-icon mdui-icon material-icons">arrow_upward</i>回到顶部</a>
       </li>
-      <li class="mdui-menu-item" disabled>
-        <a href="javascript:;">Help & feedback</a>
+      <li class="mdui-menu-item" >
+        <a href="javascript:window.history.forward(1)">
+          <i class="mdui-menu-item-icon mdui-icon material-icons">arrow_forward</i>前进一页</a>
       </li>
       <li class="mdui-menu-item">
-        <a href="javascript:;" class="mdui-ripple">Settings</a>
+        <a href="javascript:window.history.back(-1)" class="mdui-ripple">
+          <i class="mdui-menu-item-icon mdui-icon material-icons">arrow_back</i>后退一页</a>
       </li>
       <li class="mdui-divider"></li>
       <li class="mdui-menu-item">
-        <a href="E:/GitHub/og_in_cj/index.html" class="mdui-ripple">退回宣传页</a>
+        <a href="E:/GitHub/og_in_cj/index.html" class="mdui-ripple">
+          <i class="mdui-menu-item-icon mdui-icon material-icons">power_settings_new</i>退回宣传页</a>
       </li>
     </ul>
   </div>
@@ -102,8 +106,52 @@
 
 <a id="anchor-top"></a>
 
-<div class="mdui-container doc-container doc-no-cover">
-  
+<div class="mdui-container doc-container">
+
+  <div class="doc-chapter">
+
+    <div class="mdui-typo">
+      <h2 class="doc-chapter-title doc-chapter-title-first mdui-text-color-deep-orange">连招 <a class="doc-anchor" ></a></h2>
+      <p>连招是游戏中主要的攻击方式，分为地面、空中，轻、重以及散手等多种套路，每种套路都有不同的招式和特点。通过在地面或空中，以不同顺序按下轻、重攻击，将会组合出不同的连招套路。</p>
+      <ul>
+        <li>连招可以被强化，强化后可触发连打、蓄力等强化效果。</li>
+        <li>“散手”则可以衔接到任何连招套路之间，而取消中断连招所造成后摇时间惩罚。</li>
+      </ul>
+      <p>除了剑，主角后续还可以解锁副武器——飞刀。</p>
+    </div>
+
+    <div class="mdui-typo">
+      <h2 class="doc-chapter-title mdui-text-color-deep-orange">杀意技 <a class="doc-anchor"></a></h2>
+      <p>通过连击可以积攒杀意，连击次数越高，杀意积攒越快。而杀意技则是通过消耗杀意值使出的招式，通常较为强大且具备一定功能性，且配有超帅的特写镜头！</p>
+      
+    </div>
+
+    <div class="mdui-typo">
+      <h2 class="doc-chapter-title mdui-text-color-deep-orange">能力 <a class="doc-anchor" ></a></h2>
+      <p>随着游戏进度的进展，玩家会解锁一系列的能力。如最基础的“闪避”和倒地后的“翻滚”。不要小看这么基础的能力，这些能力无论在战斗中，还是关卡挑战中都非常实用。</p>
+    </div>
+
+    <div class="mdui-typo">
+      <h2 class="doc-chapter-title mdui-text-color-deep-orange">敌人设计 <a class="doc-anchor" ></a></h2>
+      <p>为了区分各种“割草”游戏，我们各种类型的敌人都经过我们精良的设计，各具特点。</p>
+      <ul>
+        <li>喽啰：可以让你爽快地疯狂连招，但要注意他们成群集队的时候。</li>
+        <li>精英：经常性带有“霸体”状态，并且进攻性强，需要用心留意他们的出招动作进行合理闪躲，切忌贪刀。</li>
+        <li>头目：需要掌握一定的“策略”才可以将其击败。</li>
+      </ul>
+      <p>此外，我们还做了特别的“加工”。为了让后期的战斗更富有挑战性，被称为“欲望”与“分层”的两种数据驱动的机制被添加到AI系统中，这两种机制让我们只需要调整相关的参数，就会让战斗变得完全不一样。</p>
+    </div>
+
+    <div class="mdui-typo">
+      <h2 class="doc-chapter-title mdui-text-color-deep-orange">关卡设计 <a class="doc-anchor" ></a></h2>
+      <p>为了做到“复刻”，在关卡设计上面，我们注重原汁原味的乐趣，同时针对横板游戏做了非常多的“改良”。首先，我们特有的3D关卡设计让横板游戏看起来“并不那么横板”。不要以为我们游戏只是单纯的左右移动……</p>
+      <p>一个环形结构的“高塔”内部。</p>
+      <p>结合这种创新元素，我们把3D的优势发挥了出来，将关卡打造成充满了不同路线和隐藏区域的“迷宫”。而这些“迷宫”之中都会融合不同的谜题挑战，并不是单纯的打打杀杀。想拿白金吗？那就探索吧！</p>
+      <p>其次，我们以纯过场动画的方式去展现我们的故事剧情，即便是简单的人物对话，也配有动作特写和语音，没有任何一段老式的“弹框式文本”！</p>
+      <p>如果用一首乐曲来比喻一个关卡的话，那么关卡中战斗、跳跃挑战、谜题、过场动画之间的编排就如乐曲中的Beats（节奏），都是被精心编排的，目标是给玩家一种强沉浸感的体验！</p>
+    </div>
+
+  </div>
 </div>
 
 </body>

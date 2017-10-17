@@ -35,20 +35,24 @@
     <a href="javascript:location.reload();" class="mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">refresh</i></a>
     <a href="javascript:;" class="mdui-btn mdui-btn-icon" mdui-menu="{target: '#example-1'}"><i class="mdui-icon material-icons">more_vert</i></a>
   	<ul class="mdui-menu" id="example-1">
-	    <li class="mdui-menu-item">
-	      <a href="javascript:;" class="mdui-ripple">Refresh</a>
-	    </li>
-	    <li class="mdui-menu-item" disabled>
-	      <a href="javascript:;">Help & feedback</a>
-	    </li>
-	    <li class="mdui-menu-item">
-	      <a href="javascript:;" class="mdui-ripple">Settings</a>
-	    </li>
-	    <li class="mdui-divider"></li>
-	    <li class="mdui-menu-item">
-	      <a href="E:/GitHub/og_in_cj/index.html" class="mdui-ripple">Sign out</a>
-	    </li>
-  	</ul>
+      <li class="mdui-menu-item ">
+        <a href="javascript:scroll(0,0)" class="mdui-ripple">
+          <i class="mdui-menu-item-icon mdui-icon material-icons">arrow_upward</i>回到顶部</a>
+      </li>
+      <li class="mdui-menu-item" >
+        <a href="javascript:window.history.forward(1)">
+          <i class="mdui-menu-item-icon mdui-icon material-icons">arrow_forward</i>前进一页</a>
+      </li>
+      <li class="mdui-menu-item">
+        <a href="javascript:window.history.back(-1)" class="mdui-ripple">
+          <i class="mdui-menu-item-icon mdui-icon material-icons">arrow_back</i>后退一页</a>
+      </li>
+      <li class="mdui-divider"></li>
+      <li class="mdui-menu-item">
+        <a href="E:/GitHub/og_in_cj/index.html" class="mdui-ripple">
+          <i class="mdui-menu-item-icon mdui-icon material-icons">power_settings_new</i>退回宣传页</a>
+      </li>
+    </ul>
   </div>
   <div class="mdui-tab mdui-color-black" mdui-tab>
   	<a href="E:/GitHub/og_in_cj/first_page/first_page.html" class="mdui-ripple mdui-ripple-white mdui-ripple" class="mdui-ripple mdui-ripple-white mdui-ripple">首页</a>
@@ -60,40 +64,97 @@
 </div>
 
 	<div id="main">
-		<div class="gradient mdui-shadow-3 mdui-color-deep-orange-500"></div>
+		<div class="mdui-panel " mdui-panel >
+  
+  <div class="mdui-panel-item mdui-color-deep-orange-500">
+    <div class="mdui-panel-item-header  ">
+      <div class="mdui-panel-item-title ">Trip name</div>
+      <!-- <div class="mdui-panel-item-summary ">Carribean cruise</div> -->
+      <i class="mdui-panel-item-arrow mdui-icon material-icons">keyboard_arrow_down</i>
+    </div>
+    <div class="mdui-panel-item-body mdui-color-white">
+      <p>First content</p>
+      <p>First content</p>
+      <p>First content</p>
+      <p>First content</p>
+      <p>First content</p>
+      <p>First content</p>
+      <div class="mdui-panel-item-actions">
+        <button class="mdui-btn mdui-ripple" mdui-panel-item-close>cancel</button>
+        <button class="mdui-btn mdui-ripple">save</button>
+      </div>
+    </div>
+  </div>
+  
+  <div class="mdui-panel-item mdui-color-deep-orange-500">
+    <div class="mdui-panel-item-header ">
+      <div class="mdui-panel-item-title">Location</div>
+      <i class="mdui-panel-item-arrow mdui-icon material-icons">keyboard_arrow_down</i>
+    </div>
+    <div class="mdui-panel-item-body mdui-color-white">
+      <p>Second content</p>
+      <p>Second content</p>
+      <p>Second content</p>
+      <p>Second content</p>
+      <p>Second content</p>
+      <p>Second content</p>
+      <div class="mdui-panel-item-actions">
+        <button class="mdui-btn mdui-ripple" mdui-panel-item-close>cancel</button>
+        <button class="mdui-btn mdui-ripple">save</button>
+      </div>
+    </div>
+  </div>
+  
+  <div class="mdui-panel-item mdui-color-deep-orange-500">
+    <div class="mdui-panel-item-header ">
+      <div class="mdui-panel-item-title">Start and end dates</div>
+      <!-- <div class="mdui-panel-item-summary">Start date: Feb 29, 2016</div> -->
+      <!-- <div class="mdui-panel-item-summary">End date: Not set</div> -->
+      <i class="mdui-panel-item-arrow mdui-icon material-icons">keyboard_arrow_down</i>
+    </div>
+    <div class="mdui-panel-item-body mdui-color-white">
+      <p>Third content</p>
+      <p>Third content</p>
+      <p>Third content</p>
+      <p>Third content</p>
+      <p>Third content</p>
+      <p>Third content</p>
+      <div class="mdui-panel-item-actions">
+        <button class="mdui-btn mdui-ripple" mdui-panel-item-close>cancel</button>
+        <button class="mdui-btn mdui-ripple">save</button>
+      </div>
+    </div>
+  </div>
+  
+</div>
+		<!-- <div class="gradient mdui-shadow-3 mdui-color-deep-orange-500"></div> -->
 		<div class="each">
 			<div class="main_left mdui-shadow-3 mdui-color-deep-orange-500">
-				<!-- <p>关于网站的基本说明</p> -->
 			</div>
 			<div class="main_right mdui-shadow-3">
-				<!-- <p>关于可能出现的bug</p> -->
 			</div>
 		</div>
 		<div class="each">
 			<div class="main_left mdui-shadow-3 mdui-color-deep-orange-500">
-				<!-- <p>关于网站的基本说明</p> -->
 			</div>
 			<div class="main_right mdui-shadow-3">
-				<!-- <p>关于可能出现的bug</p> -->
 			</div>
 		</div>
 		<div class="each">
 			<div class="main_left mdui-shadow-3 mdui-color-deep-orange-500">
-				<!-- <p>关于网站的基本说明</p> -->
 			</div>
 			<div class="main_right mdui-shadow-3">
-				<!-- <p>关于可能出现的bug</p> -->
 			</div>
 		</div>
 		<div class="each">
 			<div class="main_left mdui-shadow-3 mdui-color-deep-orange-500">
-				<!-- <p>关于网站的基本说明</p> -->
 			</div>
 			<div class="main_right mdui-shadow-3">
-				<!-- <p>关于可能出现的bug</p> -->
 			</div>
 		</div>
 	</div>
+
+
 </div>
 <footer>
 	<p>到底了哦，再怎么看也没有啦</p>
