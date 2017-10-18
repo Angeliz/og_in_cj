@@ -38,4 +38,14 @@ footer p{
     vertical-align: middle;
     text-align: center;
 }
+#github{
+	text-decoration: none;
+}
+#github:link{color: #ff4611}
+
+#github:visited{color: #ff4611}
+
+#github:hover{color: #ff4611}
+
+#github:active{color: #ff4611}
 

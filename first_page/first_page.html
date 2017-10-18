@@ -85,7 +85,7 @@
 
 <div id="main">
 <!-- 左边一栏 -->
-	<div class="main_flex">
+	<div class="main_flex" id="mian_left">
 		<div class="mdui-card">
   <!-- 卡片头部，包含头像、标题、副标题 -->
 		  <div class="mdui-card-header mdui-color-deep-orange">
@@ -102,12 +102,12 @@
 		    </div> -->
   		  </div>
   <!-- 卡片的标题和副标题 -->
-		  <div class="mdui-card-primary mdui-color-deep-orange-50">
+		  <div class="mdui-card-primary ">
 		    <div class="mdui-card-primary-title">Title</div>
 		    <div class="mdui-card-primary-subtitle">Subtitle</div>
 		  </div>
   <!-- 卡片的内容 -->
-		  <div class="mdui-card-content mdui-color-deep-orange-50">子曰：「学而时习之，不亦说乎？有朋自远方来，不亦乐乎？人不知，而不愠，不亦君子乎？」</div>		  
+		  <div class="mdui-card-content ">子曰：「学而时习之，不亦说乎？有朋自远方来，不亦乐乎？人不知，而不愠，不亦君子乎？」</div>		  
   <!-- 卡片的按钮 -->
 		  <div class="mdui-card-actions mdui-color-deep-orange">
 		    <button class="mdui-btn mdui-ripple">查看</button>
@@ -134,7 +134,7 @@
 		</div>
 	</div>
 <!-- 中间一栏 -->
-	<div id="main_center" class="main_flex" >
+	<!-- <div id="main_center" class="main_flex" >
 		<div class="mdui-card">
 		  <div class="mdui-card-media">
 		    <img src="./img/HD1.jpg"/>
@@ -153,69 +153,42 @@
 		</div>
 		<p class="empty"></p>
 		<div class="mdui-card">
-  <!-- 卡片头部，包含头像、标题、副标题 -->
 		  <div class="mdui-card-header mdui-color-deep-orange">
 		    <img class="mdui-card-header-avatar" src="./img/KM2.jpg"/>
 		    <div class="mdui-card-header-title">Title</div>
 		    <div class="mdui-card-header-subtitle">Subtitle</div>
 		  </div> 
-  <!-- 卡片的媒体内容，可以包含图片、视频等媒体内容，以及标题、副标题 -->
 		  <div class="mdui-card-media">
 		    <img src="./img/HD1.jpg"/>    
-    <!-- 卡片中可以包含一个或多个菜单按钮 -->
-		    <!-- <div class="mdui-card-menu">
-		      <button class="mdui-btn mdui-btn-icon mdui-text-color-white"><i class="mdui-icon material-icons">share</i></button>
-		    </div> -->
   		  </div>
-  <!-- 卡片的标题和副标题 -->
-		  <div class="mdui-card-primary mdui-color-deep-orange-50">
+		  <div class="mdui-card-primary">
 		    <div class="mdui-card-primary-title">Title</div>
 		    <div class="mdui-card-primary-subtitle">Subtitle</div>
 		  </div>
-  <!-- 卡片的内容 -->
-		  <div class="mdui-card-content mdui-color-deep-orange-50">子曰：「学而时习之，不亦说乎？有朋自远方来，不亦乐乎？人不知，而不愠，不亦君子乎？」</div>		  
-  <!-- 卡片的按钮 -->
+		  <div class="mdui-card-content ">子曰：「学而时习之，不亦说乎？有朋自远方来，不亦乐乎？人不知，而不愠，不亦君子乎？」</div>		  
 		  <div class="mdui-card-actions mdui-color-deep-orange">
 		    <button class="mdui-btn mdui-ripple">查看</button>
 		    <button class="mdui-btn mdui-ripple">点赞</button>
 		    <button class="mdui-btn mdui-btn-icon mdui-float-right"><i class="mdui-icon material-icons">expand_more</i></button>
 		  </div>
 		</div>
-	</div>
+	</div> -->
 <!-- 右边一栏 -->
-	<div class="main_flex">
-		<div class="mdui-card">
-  <!-- 卡片头部，包含头像、标题、副标题 -->
-		  <div class="mdui-card-header mdui-color-deep-orange">
-		    <img class="mdui-card-header-avatar" src="./img/KM2.jpg"/>
-		    <div class="mdui-card-header-title">Title</div>
-		    <div class="mdui-card-header-subtitle">Subtitle</div>
-		  </div> 
-  <!-- 卡片的媒体内容，可以包含图片、视频等媒体内容，以及标题、副标题 -->
+	<div class="main_flex" id="main_center">
+		<!-- <div class="mdui-card">
 		  <div class="mdui-card-media">
 		    <img src="./img/HD1.jpg"/>
-    
-    <!-- 卡片中可以包含一个或多个菜单按钮 -->
-		    <!-- <div class="mdui-card-menu">
-		      <button class="mdui-btn mdui-btn-icon mdui-text-color-white"><i class="mdui-icon material-icons">share</i></button>
-		    </div> -->
-  		</div>
-  
-  <!-- 卡片的标题和副标题 -->
-		  <div class="mdui-card-primary mdui-color-deep-orange-50">
-		    <div class="mdui-card-primary-title">Title</div>
-		    <div class="mdui-card-primary-subtitle">Subtitle</div>
+		    <div class="mdui-card-media-covered">
+		      <div class="mdui-card-primary">
+		        <div class="mdui-card-primary-title">Title</div>
+		        <div class="mdui-card-primary-subtitle">Subtitle</div>
+		      </div>
+		    </div>
 		  </div>
-  
-  <!-- 卡片的内容 -->
-		  <div class="mdui-card-content">子曰：「学而时习之，不亦说乎？有朋自远方来，不亦乐乎？人不知，而不愠，不亦君子乎？」</div>
-		  
-  <!-- 卡片的按钮 -->
 		  <div class="mdui-card-actions mdui-color-deep-orange">
 		    <button class="mdui-btn mdui-ripple">查看</button>
 		    <button class="mdui-btn mdui-ripple">点赞</button>
-		    <bu
-		    tton class="mdui-btn mdui-btn-icon mdui-float-right"><i class="mdui-icon material-icons">expand_more</i></button>
+		    <button class="mdui-btn mdui-btn-icon mdui-float-right"><i class="mdui-icon material-icons">expand_more</i></button>
 		  </div>
 		</div>
 		<p class="empty"></p>
@@ -234,7 +207,68 @@
 		    <button class="mdui-btn mdui-ripple">点赞</button>
 		    <button class="mdui-btn mdui-btn-icon mdui-float-right"><i class="mdui-icon material-icons">expand_more</i></button>
 		  </div>
-		</div>
+		</div> -->
+		<div class="mdui-table-fluid">
+  <table class="mdui-table">
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Username</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>Mark</td>
+        <td>Otto</td>
+        <td>@mdo</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Jacob</td>
+        <td>Thornton</td>
+        <td>@fat</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>Larry the Bird</td>
+        <td></td>
+        <td>@twitter</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>Larry the Bird</td>
+        <td></td>
+        <td>@twitter</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>Larry the Bird</td>
+        <td></td>
+        <td>@twitter</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<p class="empty"></p>
+<div class="mdui-card">
+  <div class="mdui-card-media">
+    <img src="./img/HD1.jpg"/>
+    <div class="mdui-card-media-covered mdui-card-media-covered-top">
+      <div class="mdui-card-primary">
+        <div class="mdui-card-primary-title">Title</div>
+        <div class="mdui-card-primary-subtitle">Subtitle</div>
+      </div>
+    </div>
+  </div>
+  <div class="mdui-card-actions mdui-color-deep-orange">
+    <button class="mdui-btn mdui-ripple">action 1</button>
+    <button class="mdui-btn mdui-ripple">action 2</button>
+  </div>
+</div>
+
 	</div>
 </div>
 

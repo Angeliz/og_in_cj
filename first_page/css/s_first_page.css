@@ -293,6 +293,12 @@ a:hover {
     background-color:white;
     margin: 0 20px;
 }
+#main_left{
+    flex: 1;
+}
+#main_center{
+    flex: 2;
+}
 .empty{
     height: 25px;
     margin:0;
