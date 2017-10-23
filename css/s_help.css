@@ -1,4 +1,8 @@
-
+@font-face
+{
+	font-family: myFirstFont;
+	src: url(./font/叶根友毛笔行书.ttf);
+}
 /*信息条*/
 #main{
 	width: 80%;
@@ -20,11 +24,23 @@
 	height: 150px;
 	margin: 0 20px 0 0;
 	flex: 1; 
+	font-family: myFirstFont;
+	text-align: center;
 }
 .main_right{
 	height: 150px;
 	background-color: white;
 	flex: 10;
+	padding-left: 25px;
+	font-family: myFirstFont;
+	color: #ff4611;
+	cursor: pointer;
+}
+.main_right_p{
+	line-height: 150px;
+	vertical-align: middle;
+	margin:0;
+	font-size: 25px;
 }
 
 footer{

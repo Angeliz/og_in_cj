@@ -17,7 +17,7 @@ footer p{
 @font-face
 {
 	font-family: myFirstFont;
-	src: url(./css/font/叶根友毛笔行书.ttf);
+	src: url(./font/叶根友毛笔行书.ttf);
 }
 #title{
 	font-family: myFirstFont;
