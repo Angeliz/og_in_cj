@@ -12,7 +12,7 @@ body {
 @font-face
 {
 	font-family: myFirstFont;
-	src: url(E:/GitHub/og_in_cj/index/font/叶根友毛笔行书.ttf);
+	src: url(./font/叶根友毛笔行书.ttf);
 }
 #hd{
 	width: 45%;
@@ -75,7 +75,7 @@ body {
 	width: 100%;
 	background-color: white;
 	margin-top: 100px;
-	background:url(E:/GitHub/og_in_cj/index/img/LT4.jpg) no-repeat;
+	background:url(./img/LT4.jpg) no-repeat;
 	background-size: 100%;
 }
 #sign_in p{

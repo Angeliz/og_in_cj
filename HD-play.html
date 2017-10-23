@@ -3,13 +3,12 @@
 <head>
   <meta charset="utf-8">
 	<title>GAME</title>
-	<link rel="stylesheet" href="E:/GitHub/og_in_cj/mdui/css/mdui.css">
-	<link rel="stylesheet" href="E:/GitHub/og_in_cj/mdui/css/mdui.min.css">
-	<script src="E:/GitHub/og_in_cj/mdui/js/mdui.js"></script>
-	<script src="E:/GitHub/og_in_cj/mdui/js/mdui.min.js"></script>
-  </style>
+	<link rel="stylesheet" href="./mdui/css/mdui.css">
+	<link rel="stylesheet" href="./mdui/css/mdui.min.css">
+	<script src="./mdui/js/mdui.js"></script>
+	<script src="./mdui/js/mdui.min.js"></script>
 </head>
-<body class="mdui-appbar-with-toolbar mdui-appbar-with-tab mdui-drawer-body-left mdui-theme-primary-indigo mdui-theme-accent-pink">
+<body class="mdui-appbar-with-toolbar mdui-appbar-with-tab mdui-drawer-body-left ">
 <header class="mdui-appbar mdui-appbar-fixed">
 <div class="mdui-appbar mdui-appbar-fixed">
   <div class="mdui-toolbar mdui-color-black">
@@ -35,17 +34,17 @@
       </li>
       <li class="mdui-divider"></li>
       <li class="mdui-menu-item">
-        <a href="E:/GitHub/og_in_cj/index.html" class="mdui-ripple">
+        <a href="./index.html" class="mdui-ripple">
           <i class="mdui-menu-item-icon mdui-icon material-icons">power_settings_new</i>退回宣传页</a>
       </li>
     </ul>
   </div>
   <div class="mdui-tab mdui-color-black" mdui-tab>
-  	<a href="E:/GitHub/og_in_cj/first_page/first_page.html" class="mdui-ripple mdui-ripple-white mdui-ripple" class="mdui-ripple mdui-ripple-white mdui-ripple">首页</a>
-    <a href="E:/GitHub/og_in_cj/HD/HD.html" class="mdui-ripple mdui-ripple-white mdui-ripple mdui-tab-active">隐龙传</a>
-    <a href="E:/GitHub/og_in_cj/LT/LT.html" class="mdui-ripple mdui-ripple-white mdui-ripple">光的追迹者</a>
-    <a href="E:/GitHub/og_in_cj/KM/KM.html" class="mdui-ripple mdui-ripple-white mdui-ripple">大圣归来</a>
-    <a href="E:/GitHub/og_in_cj/help/help.html" class="mdui-ripple mdui-ripple-white mdui-ripple">帮助与反馈</a>
+  	<a href="./first_page.html" class="mdui-ripple mdui-ripple-white mdui-ripple">首页</a>
+    <a href="./HD.html" class="mdui-ripple mdui-ripple-white mdui-ripple">隐龙传</a>
+    <a href="./LT.html" class="mdui-ripple mdui-ripple-white mdui-ripple">光的追迹者</a>
+    <a href="./KM.html" class="mdui-ripple mdui-ripple-white mdui-ripple">大圣归来</a>
+    <a href="./help.html" class="mdui-ripple mdui-ripple-white mdui-ripple">帮助与反馈</a>
   </div>
 </div>
 </header>
@@ -60,10 +59,10 @@
         <i class="mdui-collapse-item-arrow mdui-icon material-icons">keyboard_arrow_down</i>
       </div>
       <div class="mdui-collapse-item-body mdui-list">
-        <a href="./HD.html" class="mdui-list-item mdui-ripple mdui-list-item-active">游戏概况</a>
+        <a href="./HD.html" class="mdui-list-item mdui-ripple ">游戏概况</a>
         <a href="./HD-character.html" class="mdui-list-item mdui-ripple ">主要角色</a>
         <a href="./HD-checkpoint.html" class="mdui-list-item mdui-ripple ">关卡</a>
-        <a href="./HD-play.html" class="mdui-list-item mdui-ripple ">玩法</a>
+        <a href="./HD-play.html" class="mdui-list-item mdui-ripple mdui-list-item-active">玩法</a>
       </div>
     </div>
 
@@ -108,39 +107,48 @@
 <a id="anchor-top"></a>
 
 <div class="mdui-container doc-container">
-  <!-- <h1 class="doc-title mdui-text-color-deep-orange">《隐龙传：影踪》</h1>
-
-  <nav class="doc-toc mdui-text-color-deep-orange">
-    <ul>
-      <li><a data-scroll href="#ziliao">基本资料</a></li>
-      <li><a data-scroll href="#beijing">故事背景</a></li>
-      <li><a data-scroll href="#jieshao">游戏介绍</a></li>
-    </ul>
-  </nav> -->
 
   <div class="doc-chapter">
+
     <div class="mdui-typo">
-      <h2 class="doc-chapter-title doc-chapter-title-first mdui-text-color-deep-orange">基本资料 <a class="doc-anchor" id="ziliao"></a></h2>
-      <p>游戏名称：隐龙传：影踪</p>
-      <p>游戏平台：XBox One/PS4/PC</p>
-      <p>游戏类型：ACT</p>
-      <p>游戏人数：1人</p>
-      <p>游戏引擎：虚幻4</p>
-      <p>制作公司：美格方互动</p>
+      <h2 class="doc-chapter-title doc-chapter-title-first mdui-text-color-deep-orange">连招 <a class="doc-anchor" ></a></h2>
+      <p>连招是游戏中主要的攻击方式，分为地面、空中，轻、重以及散手等多种套路，每种套路都有不同的招式和特点。通过在地面或空中，以不同顺序按下轻、重攻击，将会组合出不同的连招套路。</p>
+      <ul>
+        <li>连招可以被强化，强化后可触发连打、蓄力等强化效果。</li>
+        <li>“散手”则可以衔接到任何连招套路之间，而取消中断连招所造成后摇时间惩罚。</li>
+      </ul>
+      <p>除了剑，主角后续还可以解锁副武器——飞刀。</p>
     </div>
 
     <div class="mdui-typo">
-      <h2 class="doc-chapter-title mdui-text-color-deep-orange">故事背景 <a class="doc-anchor" id="beijing"></a></h2>
-      <p>天授元年，武则天登基为帝。为了巩固自己的政权，武皇不惜任用酷吏，但看着自己日益年迈，迫切寻求长生之法。王孝杰将军与西域吐蕃连番征战期间，意外缴获天外陨石，将其献予武皇。武皇大喜，遂成立一秘密组织，代号 “爻 ”，以天外陨石打造神器 “龙鼎 ”，研制长生不老之药，却不得其法。其后武皇驾崩。大唐政局经过了一系列的动荡，最终李隆基重夺政权，登基为帝，称唐玄宗。</p>
-      <p>多年后，神秘组织 “爻 ”携神器 “龙鼎 ”复出，并在江湖上活捉奇人异士，作为其秘密实验的实验品。无数门派遭其灭门，在江湖上掀起了一番血雨腥风。无数阴谋正在酝酿当中……</p>
+      <h2 class="doc-chapter-title mdui-text-color-deep-orange">杀意技 <a class="doc-anchor"></a></h2>
+      <p>通过连击可以积攒杀意，连击次数越高，杀意积攒越快。而杀意技则是通过消耗杀意值使出的招式，通常较为强大且具备一定功能性，且配有超帅的特写镜头！</p>
+      
     </div>
 
     <div class="mdui-typo">
-      <h2 class="doc-chapter-title mdui-text-color-deep-orange">游戏介绍 <a class="doc-anchor" id="jieshao"></a></h2>
-      <p>《隐龙传》是由国内著名独立游戏工作室美格方互动倾力打造的3D横版动作系列游戏。《隐龙传™：影踪》为《隐龙传》系列第一部。游戏采用虚幻4引擎制作，将惊艳的画面品质以及流畅的战斗体验带给广大玩家。</p>
-      <p>游戏故事以中国大唐为背景，玩家将操控主角陆天源，探寻神器“龙鼎”的秘密，粉碎神秘组织“爻”的阴谋。</p>
-      <p>游戏制作初期，国人大师级画家阮佳便参与<隐龙传™：影踪>项目中来，为游戏奠定了独特风格的美术基础。同时，制作团队为游戏打造了一套硬核的动作与战斗体系，让玩家可以使用不同的武器，通过多种连招组合，再搭配不同的特殊能力和杀意技，体验畅爽华丽的战斗。同时，游戏也通过许多电影级别的实时渲染过场动画来阐述剧情与故事，再配上由知名音乐团队量身打造的游戏音乐，给玩家带来视觉和听觉上的享受。</p>
-      <p>作为一款仅有十几名核心制作成员的独立游戏，玩家定能在<隐龙传™：影踪>中感受到国产主机游戏的诚意。</p>
+      <h2 class="doc-chapter-title mdui-text-color-deep-orange">能力 <a class="doc-anchor" ></a></h2>
+      <p>随着游戏进度的进展，玩家会解锁一系列的能力。如最基础的“闪避”和倒地后的“翻滚”。不要小看这么基础的能力，这些能力无论在战斗中，还是关卡挑战中都非常实用。</p>
+    </div>
+
+    <div class="mdui-typo">
+      <h2 class="doc-chapter-title mdui-text-color-deep-orange">敌人设计 <a class="doc-anchor" ></a></h2>
+      <p>为了区分各种“割草”游戏，我们各种类型的敌人都经过我们精良的设计，各具特点。</p>
+      <ul>
+        <li>喽啰：可以让你爽快地疯狂连招，但要注意他们成群集队的时候。</li>
+        <li>精英：经常性带有“霸体”状态，并且进攻性强，需要用心留意他们的出招动作进行合理闪躲，切忌贪刀。</li>
+        <li>头目：需要掌握一定的“策略”才可以将其击败。</li>
+      </ul>
+      <p>此外，我们还做了特别的“加工”。为了让后期的战斗更富有挑战性，被称为“欲望”与“分层”的两种数据驱动的机制被添加到AI系统中，这两种机制让我们只需要调整相关的参数，就会让战斗变得完全不一样。</p>
+    </div>
+
+    <div class="mdui-typo">
+      <h2 class="doc-chapter-title mdui-text-color-deep-orange">关卡设计 <a class="doc-anchor" ></a></h2>
+      <p>为了做到“复刻”，在关卡设计上面，我们注重原汁原味的乐趣，同时针对横板游戏做了非常多的“改良”。首先，我们特有的3D关卡设计让横板游戏看起来“并不那么横板”。不要以为我们游戏只是单纯的左右移动……</p>
+      <p>一个环形结构的“高塔”内部。</p>
+      <p>结合这种创新元素，我们把3D的优势发挥了出来，将关卡打造成充满了不同路线和隐藏区域的“迷宫”。而这些“迷宫”之中都会融合不同的谜题挑战，并不是单纯的打打杀杀。想拿白金吗？那就探索吧！</p>
+      <p>其次，我们以纯过场动画的方式去展现我们的故事剧情，即便是简单的人物对话，也配有动作特写和语音，没有任何一段老式的“弹框式文本”！</p>
+      <p>如果用一首乐曲来比喻一个关卡的话，那么关卡中战斗、跳跃挑战、谜题、过场动画之间的编排就如乐曲中的Beats（节奏），都是被精心编排的，目标是给玩家一种强沉浸感的体验！</p>
     </div>
 
   </div>
