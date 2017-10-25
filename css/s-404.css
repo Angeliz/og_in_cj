@@ -1,18 +1,79 @@
 body{
-	/*background:url(./css/img/404.jpg) no-repeat;*/
-	/*background-height:100%;*/
+	background:url(./img/3.jpg) no-repeat;
+	background-width:100%;
 	background-color: black;
+	background-size: 100%;
 }
-p{
-	text-align: center;
-}
+
 img{
-	height: 250px;
+	height: 500px;
 	width: auto;
-	/*position:absolute;
-	left: 40%;
-	top: 38%;*/
+	position:absolute;
+	left: 28%;
+	top: 14%;
 }
-span{
-	color: white;
+a{
+	text-decoration: none;
+}
+a:link{color: #ff4611}
+
+a:visited{color: #ff4611}
+
+a:hover{color: #ff4611}
+
+a:active{color: #ff4611}
+
+#foot{
+	height: 200px;
+	position: absolute;
+	bottom: 0;
+	width: 100%
+}
+
+
+#foot p button{
+	height: 60px;
+	width: 30%;
+	background-color: black;
+	color: red;
+	opacity: 0.5;
+
+    border: none;
+    border-radius: 2px;
+
+    position: relative;
+    height: @button-height;
+    min-width: 88px;
+    display: inline-block;
+    overflow: hidden;
+    will-change: box-shadow;
+    transition: all .2s @animation-curve-default,
+    box-shadow .2s @animation-curve-fast-out-linear-in;
+    outline: none;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    line-height: @button-height;
+    vertical-align: middle;
+    font-size: 18px;
+    font-family:微软雅黑;  
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+
+    zoom: 1;
+    white-space: nowrap;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    box-sizing: border-box;
+	border-radius: 50px;
+}
+#foot  p{
+	text-align: center;
+	line-height: 100px;
+	vertical-align: middle;
+
 }
