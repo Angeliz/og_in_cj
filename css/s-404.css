@@ -1,4 +1,18 @@
 body{
-	background:url(./css/img/404.jpg) no-repeat;
-	background-height:100%;
+	/*background:url(./css/img/404.jpg) no-repeat;*/
+	/*background-height:100%;*/
+	background-color: black;
+}
+p{
+	text-align: center;
+}
+img{
+	height: 250px;
+	width: auto;
+	/*position:absolute;
+	left: 40%;
+	top: 38%;*/
+}
+span{
+	color: white;
 }
