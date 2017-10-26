@@ -15,7 +15,11 @@
      <a href="javascript:;" class="mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">menu</i></a>
     <a href="javascript:;" class="mdui-typo-title">GAME</a>
     <div class="mdui-toolbar-spacer"></div>
-    <a href="javascript:;" class="mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">search</i></a>
+    <div class="mdui-textfield mdui-textfield-expandable ">
+    <button class="mdui-textfield-icon mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">search</i></button>
+    <input class="mdui-textfield-input" type="text" placeholder="搜索"/>
+    <button class="mdui-textfield-close mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">close</i></button>
+</div>
     <a href="javascript:location.reload();" class="mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">refresh</i></a>
     <a href="javascript:;" class="mdui-btn mdui-btn-icon" mdui-menu="{target: '#example-1'}"><i class="mdui-icon material-icons">more_vert</i></a>
   	<ul class="mdui-menu" id="example-1">
@@ -125,7 +129,7 @@
 			<div class="main_left mdui-shadow-3 mdui-color-deep-orange-500">
         <p>十</br>月</br>十</br>日</p>
 			</div>
-			<div class="main_right mdui-shadow-3">
+			<div class="main_right mdui-shadow-3" onclick="mdui.snackbar({message: '此页面不做链接哦',position: 'left-bottom'});">
         <p class="main_right_p" >关于网站材料的授权问题</p>
 			</div>
 		</div>
@@ -133,7 +137,7 @@
 			<div class="main_left mdui-shadow-3 mdui-color-deep-orange-500">
         <p>九</br>月</br>十</br>四</br>日</p>
 			</div>
-			<div class="main_right mdui-shadow-3">
+			<div class="main_right mdui-shadow-3"  onclick="mdui.snackbar({message: '此页面不做链接哦',position: 'left-bottom'});">
         <p class="main_right_p" ">历史更新</p>
 			</div>
 		</div>
@@ -141,7 +145,7 @@
 			<div class="main_left mdui-shadow-3 mdui-color-deep-orange-500">
         <p>九</br>月</br>七</br>日</p>
 			</div>
-			<div class="main_right mdui-shadow-3">
+			<div class="main_right mdui-shadow-3"  onclick="mdui.snackbar({message: '此页面不做链接哦',position: 'left-bottom'});">
         <p class="main_right_p" >致谢</p>
 			</div>
 		</div>
