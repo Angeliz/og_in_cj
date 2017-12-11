@@ -9718,6 +9718,7 @@ select.mdui-select[multiple] option:last-child {
   overflow-x: auto;
   overflow-y: hidden;
   white-space: nowrap;
+  list-style-type: none;
 }
 .mdui-tab a {
   display: -webkit-box;
