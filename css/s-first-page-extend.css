@@ -24,3 +24,7 @@ footer p{
 	color: #ff4611;
 	text-align: center;
 }
+#btn{
+    width: 120px;
+    height: 40px;
+}

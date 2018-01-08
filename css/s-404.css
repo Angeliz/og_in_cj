@@ -17,10 +17,13 @@ body{
 }
 img{
 	height: 500px;
-	width: auto;
+	width: 500px;
 	position:absolute;
-	left: 34%;
-	top: 14%;
+	left: 50%;
+	top: 50%;
+    margin-top: -250px;
+    margin-left: -250px;
+
 }
 a{
 	text-decoration: none;
@@ -41,7 +44,9 @@ a:active{color: #ff4611}
 }
 
 
-#foot p button{
+#foot  button{
+    left: 50%;
+    margin-left: -15%;
 	height: 60px;
 	width: 30%;
 	background-color: black;
@@ -80,10 +85,4 @@ a:active{color: #ff4611}
     user-select: none;
     box-sizing: border-box;
 	border-radius: 50px;
-}
-#foot  p{
-	text-align: center;
-	line-height: 100px;
-	vertical-align: middle;
-
 }
